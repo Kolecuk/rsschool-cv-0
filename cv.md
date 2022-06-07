@@ -1,27 +1,27 @@
-#***Curriculum vitae***
+# ***Curriculum vitae***
 
-###***Kolya Ryabtsev***
+### ***Kolya Ryabtsev***
 
 ---
 
-###***Contacts***
+### ***Contacts***
 + ***Location:*** *Minsk, Belarus*
 + ***Discord:*** *[Kolya Ryabtsev (@kolecuk)]*
 + ***GitHub:*** *[Kolecuk]*
 
 ---
 
-###***About Me***
+### ***About Me***
 *I work as an relay protection and automation engineer in the energy sector. Department head appreciates me for responsibility and goodwill. I enjoy working in a team. The ability to resolve issues diplomatically and stress resistance help me. My aim is to be an it developer and work in a good team with up-to-date management.*
 
 ---
 
-###***Programming skills***
+### ***Programming skills***
 *I'm at the beginning of a great journey.*
 
 ---
 
-###***Code example***
+### ***Code example***
 *This is a simple initiation challenge from [codewars]:*
 `function multiply(a, b){`
 `  return a * b`
@@ -29,14 +29,14 @@
 
 ---
 
-###***Experience***
+### ***Experience***
 *[Here is] my first student project - CV. I'v get acquainted with and use in practice:*
 + *Git*
 + *Markdown*
 
 ---
 
-###***Education***
+### ***Education***
 + ***Univercity:*** *Belarusian National Technical University*
 	+ ***Speciality:*** *energy engineer*
 + ***Courses:***
@@ -44,7 +44,7 @@
 
 ---
 
-###***Languages***
+### ***Languages***
 + *Russian - native*
 + *English - elementary-intermediate*
 
