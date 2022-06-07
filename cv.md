@@ -23,9 +23,11 @@
 
 ### ***Code example***
 *This is a simple initiation challenge from [codewars]:*
-`function multiply(a, b){`
-`  return a * b`
-`}`
+```
+function multiply(a, b){
+  return a * b
+}
+```
 
 ---
 
