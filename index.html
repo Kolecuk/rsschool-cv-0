@@ -15,7 +15,7 @@
 <body>
 	<header class="header">
 		<div class="container">
-			<h1>Curriculum vitae</h1>
+			<h1 class="header-title">Curriculum vitae</h1>
 			<nav class="nav">
 				<ul class="nav-list">
 					<li class="nav-item">
@@ -51,8 +51,8 @@
 		<div class="container">
 			<div class="main-container">
 				<section id="profile" class="section">
-					<img src="assets/img/my foto.JPG" alt="avatar">
 					<h1 class="section-title">Kolya Ryabtsev</h1>
+					<img src="assets/img/my foto.JPG" alt="avatar" class="avatar">
 					<p>Future junior front-end developer</p>
 				</section>
 
@@ -60,16 +60,16 @@
 					<h2 class="section-title">Contacts</h2>
 					<ul>
 						<li>
-							<span>Location:</span>
+							<span class="main-bold">Location:</span>
 							Minsk, Belarus
 						</li>
 						<li>
-							<span>Discord:</span>
+							<span class="main-bold">Discord:</span>
 							<a href="https://discordapp.com/users/938175937122537503/" title="Discord profile" target="_blank"
 								class="main-link">Kolya Ryabtsev (@kolecuk)</a>
 						</li>
 						<li>
-							<span>GitHub:</span>
+							<span class="main-bold">GitHub:</span>
 							<a href="https://github.com/Kolecuk" title="GitHub profile" target="_blank"
 								class="main-link">Kolecuk</a>
 						</li>
@@ -81,7 +81,7 @@
 					<p>I work as an relay protection and automation engineer in the energy sector.
 						Department head appreciates me for responsibility and goodwill. I enjoy working in a team.
 						The ability to resolve issues diplomatically and stress resistance help me.
-						My aim is to be an it developer and work in a good team with up-to-date management.</p>
+						My aim is to be an it-developer and work in a good team with up-to-date management.</p>
 				</section>
 
 				<section id="skills" class="section">
@@ -101,13 +101,13 @@
 						<a href="https://www.codewars.com" title="Educational platform" target="_blank"
 							class="main-link">codewars:</a>
 					</p>
-					<pre>
-						<code>
-							function multiply(a, b){
-								return a * b
-							}
-						</code>
-					</pre>
+					<code>
+<pre>
+	function multiply(a, b){
+		return a * b
+	}
+</pre>
+					</code>
 				</section>
 
 				<section id="projects" class="section">
@@ -123,17 +123,17 @@
 					<h2 class="section-title">Education</h2>
 					<ul>
 						<li>
-							<span>Univercity:</span>
+							<span class="main-bold">Univercity:</span>
 							Belarusian National Technical University
 							<ul>
 								<li>
-									<span>Speciality:</span>
+									<span class="main-bold">Speciality:</span>
 									energy engineer
 								</li>
 							</ul>
 						</li>
 						<li>
-							<span>Courses:</span>
+							<span class="main-bold">Courses:</span>
 							<ul>
 								<li>
 									<span>
@@ -151,11 +151,11 @@
 					<h2 class="section-title">Languages</h2>
 					<ul>
 						<li>
-							<span>Russian:</span>
+							<span class="main-bold">Russian:</span>
 							native
 						</li>
 						<li>
-							<span>English:</span>
+							<span class="main-bold">English:</span>
 							elementary-intermediate
 						</li>
 					</ul>
@@ -166,14 +166,26 @@
 
 	<footer class="footer">
 		<div class="container">
-			<img src="assets/svg/rs_school_js.svg" alt="course logo">
-			<a href="https://rs.school/js/" title="Course «JavaScript/Front-end»" target="_blank">rs-school</a>
-			<img src="assets/svg/discord-logo.png" alt="discord logo">
-			<a href="https://discordapp.com/users/938175937122537503/" title="Discord profile" target="_blank">Kolya
-				Ryabtsev (@kolecuk)</a>
-			<img src="assets/svg/github-logo.png" alt="github logo">
-			<a href="https://github.com/Kolecuk" title="GitHub profile" target="_blank">Kolecuk</a>
-			<p>&copy; Kolya Ryabtsev, 2022</p>
+			<ul class="footer-list">
+				<li>
+					<a href="https://rs.school/js/" title="Course «JavaScript/Front-end»" target="_blank">
+						<img src="assets/svg/rs_school_js.svg" alt="rs-school logo" class="footer-link">
+					</a>
+				</li>
+				<li>
+					<a href="https://discordapp.com/users/938175937122537503/" title="Discord profile" target="_blank">
+						<img src="assets/svg/discord-logo.png" alt="discord logo" class="footer-link">
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/Kolecuk" title="GitHub profile" target="_blank">
+						<img src="assets/svg/github-logo.png" alt="github logo" class="footer-link">
+					</a>
+				</li>
+				<li>
+					&copy; Kolya Ryabtsev, 2022
+				</li>
+			</ul>
 		</div>
 	</footer>
 </body>
