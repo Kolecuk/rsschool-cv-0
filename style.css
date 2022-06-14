@@ -1,77 +1,81 @@
-/*Чтобы разместить все элементы навигации в строку,
-элементу .nav-list указываем свойство display: flex;,
-сдвинуть их вправо позволит свойство justify-content: flex-end;,
-выровнять по центру по высоте свойство align-items: center;*/
+@font-face {
+	font-family: Playfair_Display, serif;
+	src: url("assets/fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf");
+}
 
-/*<nav class="nav">
-  <ul class="nav-list">
-    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-  </ul>
-</nav>*/
-
-/*.nav-list {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}*/
-
-/*Якорные ссылки
-Каждой ссылке навигации укажите адрес, который начинается с решётки,
-а дальше идёт название раздела, на который она ведёт. Это якорные ссылки,
-при кликам по которым страница прокручивается до нужного раздела.
-Для этого разделам страницы необходимо указать id такие же,
-как и адреса ссылок в пунктах навигации.
-
-Чтобы прокрутка происходила плавно, в css-файл добавьте свойство:
+body {
+	font-family: 'Playfair_Display';
+	min-height: 100vh;
+	margin: 0; padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 
 html {
-  scroll-behavior: smooth; 
+	scroll-behavior: smooth; 
 }
-Стилизация списка
-Убираем стандартные маркеры:
+
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	margin: 0;
+}
+
+.main {
+	margin: 0;
+}
+
+.footer {
+	margin: 0;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
 
 .nav-list {
-  list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
 }
-Добавляем отступы между элементами списка:
 
 .nav-link {
-  padding: 0 20px;
-  line-height: 50px;
+	padding: 0 15px;
+	line-height: 50px;
+	text-decoration: none;
+	color: #1E6D74;
+	transition: color 0.3s;
 }
-Отступы добавляем ссылкам, а не элементам списка.
-Это позволяет увеличить площадь, по которой можно кликнуть,
-чтобы перейти по ссылке, и улучшает удобство пользования приложением.
-
-Так как ссылки - строчные элементы, вертикальные padding у них создаются,
-но не отталкивают другие элементы. Для строчных элементов
-вместо вертикальных padding удобнее указывать высоту строки.
-
-Можно сразу убрать подчёркивание у ссылок, указать цвет и размер шрифта.
-
-Интерактивность при наведении
-Всем интерактивным элементам, с которыми пользователь
-может взаимодействовать, необходимо добавить изменение свойств при наведении.
-Свойства элемента при наведении указываем при помощи псевдокласса :hover.
-Чтобы свойства менялись плавно. самому интерактивному элементу
-обязательно указываем свойство transition:
-
-.nav-link {
-  transition: .3s;
+.nav-link:hover {
+	color:#BF9130;
 }
-Минимальная и обязательная интерактивность - изменение
-внешнего вида курсора. Для ссылок она уже реализована средствами браузера,
-для других интерактивных элементов добавляется свойством cursor: pointer
-Кроме изменения внешнего вида курсора рекомендуется добавить ссылкам
-дополнительную интерактивность, например, подчеркивание, или изменить их цвет.
 
-.section-item a {
-  color: #829985;
-  text-decoration: none;  
-  transition: color 0.5s;
+.main-link {
+	text-decoration: none;
+	color: #1E6D74;
+	transition: color 0.3s;
 }
-.section-item a:hover {
-  color: #4d2323;
-}*/
+
+.main-link:hover {
+	color:#BF9130;
+}
+
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.section {
+	width: 50%;
+}
+
+@media (max-width: 768px) {
+	.section {
+		width: 100%;
+	}
+}
