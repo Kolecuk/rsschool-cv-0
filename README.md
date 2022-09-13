@@ -1,4 +1,4 @@
 # rsschool-cv
 
-https://kolecuk.github.io/rsschool-cv/cv
-https://kolecuk.github.io/rsschool-cv
+https://kolecuk.github.io/rsschool-cv-0/cv
+https://kolecuk.github.io/rsschool-cv-0
