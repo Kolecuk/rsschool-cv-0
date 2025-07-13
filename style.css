@@ -123,8 +123,6 @@ html {
 
 .footer-link {
 	height: 50px;
-	weight: 50px;
 	padding: 0 20px;
 	line-height: 50px;
-	align-items: space-between;
 }
